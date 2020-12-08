@@ -1,0 +1,31 @@
+.TableView{
+    position: absolute;
+    top: 150px;
+    left: 400px;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr, th, td{
+    color: white;
+    width: 200px;
+    padding: 2%;
+}
+th{
+    font-size: 1.5pc;
+}
+
+th, td{
+    border-right: 0.8px solid black;
+    text-align: center
+}
+
+tr:nth-child(even){
+    background-color: cadetblue;
+}
+tr:nth-child(odd){
+    background-color: darkgray;
+}
